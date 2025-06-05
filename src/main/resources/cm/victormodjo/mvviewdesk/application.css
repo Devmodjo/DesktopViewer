@@ -5,3 +5,29 @@
 AnchorPane{
     -fx-background-color: black;
 }
+.container{
+    -fx-background-color: #161b22;
+}
+
+.scroll-pane {
+    -fx-hbar-policy: never;  /* Désactive la barre horizontale (overflow-x: hidden) */
+    -fx-vbar-policy: as-needed;
+    -fx-background-color: transparent;
+}
+
+/* Cache les barres de défilement */
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-opacity: 0;
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+.add-btn {
+    -fx-text-fill: white;
+    -fx-border-radius:15px;
+    -fx-margin:25px;
+    -fx-background-color:transparent;
+    -fx-border-color:white;
+}
