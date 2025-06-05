@@ -3,6 +3,7 @@ package cm.victormodjo.mvviewdesk;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -14,6 +15,7 @@ public class Main extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("MVDesktopViewer");
         stage.setScene(scene);
+        // stage.getIcons().add(new Image("cm/victormodjo/mvviewdesk/img/icon.ico"));
         stage.setResizable(false);
         stage.show();
     }

@@ -23,7 +23,9 @@ public class DBManager {
                     CREATE TABLE IF NOT EXISTS website(
                         idw_ PRIMARY KEY AUTOINCREMENT,
                         namew_  TEXT NOT NULL UNIQUE,
-                        linkw_ TEXT NOT NULL
+                        linkw_ TEXT NOT NULL,
+                        descript_ TEXT NOT NULL,
+                        dateregis_ DATE NOT NULL
                     );
                     """;
             stmt.execute(req);
