@@ -8,12 +8,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1200.0" style="-fx-padding: 20;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1200.0" style="-fx-padding: 20;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cm.victormodjo.mvviewdesk.controller.MainappController">
    <children>
       <ScrollPane layoutY="-1.0" prefHeight="681.0" prefWidth="76.0">
          <content>
-            <VBox alignment="TOP_CENTER" prefHeight="683.0" prefWidth="62.0" styleClass="container">
+            <VBox fx:id="vboxlistwebsite" alignment="TOP_CENTER" prefHeight="683.0" prefWidth="62.0" styleClass="container">
                <children>
                   <Button fx:id="addwebsite" mnemonicParsing="false" prefHeight="51.0" prefWidth="54.0" styleClass="add-btn" text="+">
                      <font>
@@ -32,14 +31,9 @@
             <Font name="Poppins Bold" size="21.0" />
          </font>
       </Label>
-      <Label layoutX="113.0" layoutY="123.0" text="votre plateforme de webview desktop personnalisée" textFill="WHITE">
+      <Label layoutX="113.0" layoutY="100.0" text="votre plateforme de webview desktop personnalisée" textFill="WHITE">
          <font>
             <Font name="System Italic" size="15.0" />
-         </font>
-      </Label>
-      <Label layoutX="113.0" layoutY="187.0" text="Vos Site Internet" textFill="#fcfcfc">
-         <font>
-            <Font name="System Bold" size="16.0" />
          </font>
       </Label>
    </children>

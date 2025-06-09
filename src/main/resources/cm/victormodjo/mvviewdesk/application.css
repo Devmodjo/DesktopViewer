@@ -3,7 +3,7 @@
 **/
 
 AnchorPane{
-    -fx-background-color: black;
+    -fx-background-color: #001219;
 }
 .container{
     -fx-background-color: #161b22;
@@ -30,4 +30,10 @@ AnchorPane{
     -fx-margin:25px;
     -fx-background-color:transparent;
     -fx-border-color:white;
+}
+
+Button {
+    -fx-background-color: #003049;
+    -fx-border-radius: 15px;
+    -fx-margin:5px;
 }
